@@ -1,0 +1,21 @@
+# ===== Shared =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+.DS_Store
+Thumbs.db
+
+# ===== Frontend =====
+frontend/build/
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage
+frontend/.env*
+frontend/*.local
+
+# ===== Backend =====
+backend/build/
+backend/dist/
+backend/.env
